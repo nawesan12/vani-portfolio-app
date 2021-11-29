@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Link from 'next/link'
 
 import MainHeader from '../components/MainHero/MainHeader'
 import MainHero from '../components/MainHero/MainHero'

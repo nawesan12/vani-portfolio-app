@@ -1,0 +1,34 @@
+.section_header {
+    height:8vh;
+    width:100vw;
+    display:flex;
+    justify-content: space-between;
+    padding:1rem 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    box-shadow: 2px 1px 6px 1px rgba(0, 0, 0, 0.2);
+}
+
+.section_footer {
+    height:6vh;
+    width:100vw;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    background: #181818;
+}
+
+.copy {
+    line-height:1;
+    font-weight: 500;
+    margin:.5rem 0 0;
+    font-size: 1.1rem;
+    color:#fff;
+}
+
+.subparagraph {
+    line-height: 1.5;
+    font-size:.6rem;
+    margin-bottom:1rem;
+    color:#fff;
+}

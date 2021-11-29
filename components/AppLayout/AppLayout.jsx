@@ -1,3 +1,8 @@
+import Link from 'next/link';
+
+import Footer from './Footer';
+import Header from './Header';
+
 export default function AppLayout({ children }) {
 
     const leftArrow = '&#8666;'
@@ -5,15 +10,11 @@ export default function AppLayout({ children }) {
 
     return (
         <>
-            <header>
-                {leftArrow}
-            </header>
+            <Header/>
             <main>
                 {children}    
             </main>    
-            <footer>
-                soy el footer
-            </footer>
+            <Footer/>
         </>
     );
 }

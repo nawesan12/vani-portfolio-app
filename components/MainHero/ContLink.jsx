@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function ContLink(){
     return(
         <>
-        <Link href="/presentacion"><a>
+        <Link href="/contacto"><a>
             <section className={styles.link_section}>
                 <div>
                     <h3>Contacto</h3>

@@ -15,7 +15,7 @@
 }
 
 .link_section {
-    margin:3rem;
+    margin:3rem 2.8rem;
     border-radius: 1rem;
     display:flex;
     justify-content: space-between;
@@ -23,6 +23,11 @@
     width:85%;
     padding:0 1rem;
     margin-bottom:.8rem;
+    border:1px solid transparent;
+    
+    &:hover {
+        border:1px dashed black;
+    }
 }
 
 .arrow {

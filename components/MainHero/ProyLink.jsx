@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function ProyLink(){
     return(
         <>
-        <Link href="/presentacion"><a>
+        <Link href="/proyectos"><a>
             <section className={styles.link_section}>
                 <div>
                     <h3>Proyectos</h3>
