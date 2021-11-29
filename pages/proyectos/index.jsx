@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 
 import AppLayout from '../../components/AppLayout/AppLayout'
+import Projects from '../../components/Projects/Projects'
 
 export default function Proyectos() {
     return (
@@ -10,8 +11,7 @@ export default function Proyectos() {
             <title>Vanina Gonzalez - Proyectos</title>
         </Head>
         <AppLayout>    
-            Proyectos
-            <Link href="/"><a>Volver</a></Link>
+            <Projects/>
         </AppLayout>
         </>
     );
