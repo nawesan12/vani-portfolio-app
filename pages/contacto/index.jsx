@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Head from 'next/head';
 
 import AppLayout from '../../components/AppLayout/AppLayout'
+import ContactHero from '../../components/ContactHero/ContactHero'
 
 export default function Contacto() {
     return (
@@ -10,8 +11,7 @@ export default function Contacto() {
             <title>Vanina Gonzalez - Contacto</title>
         </Head>
         <AppLayout>
-            Contacto
-            <Link href="/"><a>Volver</a></Link>
+            <ContactHero />
         </AppLayout>
         </>
     );
