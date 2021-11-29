@@ -11,7 +11,13 @@ export default function PresentationHero(){
             </div>
             <section className="presentation">
                 <h2>Sobre mi</h2>
-                <p className="bio">Lorem ipsum dolor srrehenderit. Lorem ipsum dolor srrehenderitLorem ipsum dolor srrehenderitLorem ipsum dolor sLorem ipsum dolor srrehenderitLorem ipsum dolor srrehenderitLorem ipsum dolor srrehenderitrrehenderitNam laudantium alias esse sunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat libero nulla, ullam dicta corrupti, neque reprehenderit animi quidem magnam doloribus cupiditate reiciendis asperiores excepturi quam numquam aliquam! Perferendis ad animi quia incidunt veritatis minima error adipisci nulla cum ut beatae odio nam ex sed, sapiente consequatur, ea dolorum libero sit reiciendis, consequuntur eligendi ab omnis velit. Amet doloremque impedit sapiente, eius dolorem voluptatem architecto nisi fugit nam vel sit blanditiis eveniet harum aliquam voluptate obcaecati, vero ipsa ea! Facere illo optio iure, eius ratione at ipsa incidunt adipisci rem nam minus eveniet id dignissimos quidem impedit ea eaque. Dolor, enim.</p>
+                <p className="bio">
+                    Soy una arquitecta de 19 años, con experiencia en el diseño de viviendas, departamentos y comercios, modelado 3D de obras 
+                    y representaciones reales de ellas. Termine mi carrera como maestra mayor de obra a los 19 años, y ahora estoy 
+                    estudiando arquitectura en la UNMDP. La pagina dice arquitecta porque mi esposo es un ansioso y mientras programa
+                    puso que ya me recibi uwu. Siempre buscare la idoneidad en mis trabajos, fijandome hasta en el ultimo detalle para
+                    poder asegurar una buena experiencia y comodidad para mis clientes.
+                </p>
                 <article className="education">
                     <h4>Educación</h4>
                     <ul>
@@ -90,7 +96,9 @@ export default function PresentationHero(){
                 }
 
                 .bio {
-                    line-height:1.5;
+                    line-height:1.6;
+                    color:#333;
+                    padding:.2rem;
                 }
 
                 h4 {

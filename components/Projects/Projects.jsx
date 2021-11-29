@@ -57,7 +57,3 @@ export default function Projects() {
         </>
     );
 }
-
-Projects.getInitialProps = async () => {
-    
-}
