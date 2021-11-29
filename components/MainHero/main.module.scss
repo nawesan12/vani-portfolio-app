@@ -1,0 +1,33 @@
+.app_header {
+    display:block;
+    text-align: center;
+    margin-top: 8vh;
+
+    
+}
+
+.title {
+    margin-bottom: .4rem;
+}
+
+.subtitle {
+    margin-top: 0!important;
+}
+
+.link_section {
+    margin:3rem;
+    border-radius: 1rem;
+    display:flex;
+    justify-content: space-between;
+    margin:auto;
+    width:85%;
+    padding:0 1rem;
+    margin-bottom:.8rem;
+}
+
+.arrow {
+    display: grid;
+    place-items: center;
+    font-size: 1.8rem;
+    padding:0 1rem;
+}
