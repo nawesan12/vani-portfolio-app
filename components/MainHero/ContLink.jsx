@@ -9,7 +9,7 @@ export default function ContLink(){
             <section className={styles.link_section}>
                 <div>
                     <h3>Contacto</h3>
-                    <p>magni maxime nemo quam eos quasi.</p>
+                    <p>Contactame! Puedo ayudarte.</p>
                 </div>
                 <div className={styles.arrow}>
                     &#8667;

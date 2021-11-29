@@ -28,6 +28,10 @@
   border: 1px solid transparent;
 }
 
+.link_section p {
+  padding-right: 1rem;
+}
+
 .link_section:hover {
   border: 1px dashed black;
 }

@@ -13,7 +13,7 @@ export default function Project(props){
                 <div className="image_cont">
                     <Image src={url.toString()} width={400} height={260} alt={props.title}/>
                 </div>
-                <Link href="/"><a>
+                <Link href={`/proyecto`}><a>
                     <div className="bubble green"/>
                     <h4>{props.title}</h4>
                     <p>{props.description.split("", 120)}...</p>

@@ -9,7 +9,7 @@ export default function PresLink(){
             <section className={styles.link_section}>
                 <div>
                     <h3>Presentacion</h3>
-                    <p>Lorem ipsum dolor sit amet odio magni maxime nemo quam eos quasi...</p>
+                    <p>Conoceme mas! Te contare sobre mi carrera y conocimientos.</p>
                 </div>
                 <div className={styles.arrow}>
                     &#8667;

@@ -8,7 +8,7 @@ export default function ProyLink(){
             <section className={styles.link_section}>
                 <div>
                     <h3>Proyectos</h3>
-                    <p>ctetur odio magni maxime nemo quam eos quasi.</p>
+                    <p>Mira todo el trabajo y construcciones hechas por mi</p>
                 </div>
                 <div className={styles.arrow}>
                     &#8667;
