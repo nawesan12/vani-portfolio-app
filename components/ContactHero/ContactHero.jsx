@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import ContactForm from './ContactForm';
 
 export default function ContactHero() {
     return(
@@ -36,6 +37,7 @@ export default function ContactHero() {
                     </li>
                 </ul>
             </section>
+            <ContactForm />
             
             <style jsx>{`
                 h1 {

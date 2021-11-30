@@ -5,17 +5,18 @@ export default function PresentationHero(){
         <>
             <div className="profile">
                 <h1>Hola, soy<br/> Vanina Gonzalez</h1>
-                <div className="profile_photo" >
-                    <Image src="/images/favogo.png" width={100} height={100} alt="Vanina Gonzalez"/>
+                <div className="profile_photo" style={{width:100, height:100, borderRadius: '50%', overflow: 'hidden', position:'relative'}}>
+                    <Image src="/images/profile_photo.png" layout="fill" objectFit="cover" alt="Vanina Gonzalez"/>
                 </div>
             </div>
             <section className="presentation">
                 <h2>Sobre mi</h2>
                 <p className="bio">
-                    Soy una arquitecta de 19 años, con experiencia en el diseño de viviendas, departamentos y comercios, modelado 3D de obras 
+                    Soy una maestra mayor de obra de 19 años, con experiencia en el diseño de viviendas, departamentos y comercios, modelado 3D de obras 
                     y representaciones reales de ellas. Termine mi carrera como maestra mayor de obra a los 19 años, y ahora estoy 
-                    estudiando arquitectura en la UNMDP. La pagina dice arquitecta porque mi esposo es un ansioso y mientras programa
-                    puso que ya me recibi uwu. Siempre buscare la idoneidad en mis trabajos, fijandome hasta en el ultimo detalle para
+                    estudiando arquitectura en la UNMDP. Cuento con una amplia variedad de proyectos ya hechos por mi cuenta.
+                    La pagina dice arquitecta porque mi esposo es un ansioso y mientras programa puso que ya me recibi uwu.
+                    Siempre buscare la idoneidad en mis trabajos, fijandome hasta en el ultimo detalle para
                     poder asegurar una buena experiencia y comodidad para mis clientes.
                 </p>
                 <article className="education">
@@ -85,10 +86,6 @@ export default function PresentationHero(){
                     align-items:center;
                     justify-content:space-between;
                     padding:1rem 1rem 0;
-                }
-
-                .profile_photo {
-                    border-radius:50%;
                 }
 
                 .presentation {
