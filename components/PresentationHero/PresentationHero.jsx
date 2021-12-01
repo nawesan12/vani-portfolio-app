@@ -5,7 +5,7 @@ export default function PresentationHero(){
         <>
             <div className="profile">
                 <h1>Hola, soy<br/> Vanina Gonzalez</h1>
-                <div className="profile_photo" style={{width:100, height:100, borderRadius: '50%', overflow: 'hidden', position:'relative'}}>
+                <div className="profile_photo" style={{width:110, height:110, borderRadius: '50%', overflow: 'hidden', position:'relative', borderColor:'black', borderWidth:'3px 3px 5px 5px', borderStyle:'dashed dashed groove groove'}}>
                     <Image src="/images/profile_photo.png" layout="fill" objectFit="cover" alt="Vanina Gonzalez"/>
                 </div>
             </div>
@@ -15,7 +15,7 @@ export default function PresentationHero(){
                     Soy una maestra mayor de obra de 19 años, con experiencia en el diseño de viviendas, departamentos y comercios, modelado 3D de obras 
                     y representaciones reales de ellas. Termine mi carrera como maestra mayor de obra a los 19 años, y ahora estoy 
                     estudiando arquitectura en la UNMDP. Cuento con una amplia variedad de proyectos ya hechos por mi cuenta.
-                    La pagina dice arquitecta porque mi esposo es un ansioso y mientras programa puso que ya me recibi uwu.
+                    {/*La pagina dice arquitecta porque mi esposo es un ansioso y mientras programa puso que ya me recibi uwu.*/}
                     Siempre buscare la idoneidad en mis trabajos, fijandome hasta en el ultimo detalle para
                     poder asegurar una buena experiencia y comodidad para mis clientes.
                 </p>

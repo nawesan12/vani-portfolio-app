@@ -12,7 +12,7 @@ export default function ContactHero() {
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                         <rect x="3" y="5" width="18" height="14" rx="2" />
                         <polyline points="3 7 12 13 21 7" />
-                        </svg>Email: <a href="mailto:vanina.gon02@gmail.com Subject=Aquí%20el%20asunto%20del%20mail" target="blank">vanina.gon02@gmail.com</a>
+                        </svg>Email: <a href="mailto:vaninagonzalez.arq@gmail.com Subject=Aquí%20el%20asunto%20del%20mail" target="blank">vaninagonzalez.arq@gmail.com</a>
                     </li>
                     <li>
                         <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-phone" width="36" height="36" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#000000" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -26,7 +26,7 @@ export default function ContactHero() {
                         <rect x="4" y="4" width="16" height="16" rx="4" />
                         <circle cx="12" cy="12" r="3" />
                         <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
-                        </svg>Instagram: <a href="https://www.google.com" target="blank">@vaniarquitectura</a>
+                        </svg>Instagram: <a href="https://www.instagram.com/vaninagonzalez.arq/" target="blank">@vaninagonzalez.arq</a>
                     </li>
                     <li>
                         <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-map-pin" width="36" height="36" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#000000" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -42,6 +42,10 @@ export default function ContactHero() {
             <style jsx>{`
                 h1 {
                     text-align:center;
+                }
+
+                .contact_hero {
+                    height:20vh;
                 }
 
                 ul {
