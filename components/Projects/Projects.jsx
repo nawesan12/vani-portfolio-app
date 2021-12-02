@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react'
-import db from '../../database/firebase'
+import { db } from '../../database/firebase'
 import { getDocs, collection } from 'firebase/firestore'
 import Loader from 'react-loader-spinner'
 
