@@ -1,34 +1,60 @@
+import { useState } from 'react';
+
 import Image from 'next/image'
-import Link from 'next/link'
+import ProjectDetails from './ProjectDetails'
 
 export default function Project(props){
     
     const url = props.image;
     console.log(url)
 
+    const [openProject, setOpenProject] = useState(false);
+    const [scrollCoords, setScrollCoords] = useState(0);
+
+    const abrirDetalles = () => {
+        setScrollCoords(window.scrollY);
+        setOpenProject(true);
+    }
+
+    const cerrarDetalles = () => {
+        setOpenProject(false);
+        window.scrollTo(0, scrollCoords, {behavior: 'smooth'});
+    }
+
     return(
         <>
+            {
+                openProject == false ?
+                <article className="project_article" onClick={() => abrirDetalles()}>
+                    <div className="image_cont">
+                        <Image src={url.toString()} width={400} height={260} alt={props.title}/>
+                    </div>
+                    <div>
+                        <div className="bubble green"/>
+                        <h4>{props.title}</h4>
+                        <p>{props.description.split("", 120)}...</p>
+                    </div>
+                    <span>{props.ubicacion} • {props.fecha}</span>
+                </article> : 
+                <ProjectDetails 
+                    title={props.title}
+                    description={props.description}
+                    ubicacion={props.ubicacion}
+                    fecha={props.fecha}
+                    image={props.image}
+                    volver={() => cerrarDetalles()}
+                />
+            }
             
-            <article className="project_article">
-                <div className="image_cont">
-                    <Image src={url.toString()} width={400} height={260} alt={props.title}/>
-                </div>
-                <Link href={`/proyecto`}><a>
-                    <div className="bubble green"/>
-                    <h4>{props.title}</h4>
-                    <p>{props.description.split("", 120)}...</p>
-                </a></Link>
-                <span>{props.ubicacion} • {props.fecha}</span>
-            </article>
             
             <style jsx>{`
                 .project_article {
-                    display:block;
+                    display: openProject == false ? none : block;
                     padding:1rem;
                     margin:2rem 1.5rem;
                     border-radius: .5rem;
                     box-shadow: 1px 1px 10px 2px rgba(0,0,0, .2);
-                    height:27rem;
+                    height:27rem;                    
                 }
 
                 h4 {

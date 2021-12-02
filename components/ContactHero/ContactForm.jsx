@@ -12,7 +12,7 @@ export default function ContactForm() {
         name: '',
         email: '',
         comment: '',
-        date: new Date().toLocaleString('es-AR', { timeZone: 'UTC' })
+        date: new Date().toLocaleString('es-AR', { timeZone: 'GMT' })
     });
 
     const handleChangeText = (name, event) => {
@@ -25,7 +25,6 @@ export default function ContactForm() {
         } else {
             try {
                 const comment = await addDoc(collection(db, 'feedback'), datos);
-                alert("Gracias por tu comentario! ♥");
                 setDatos({});
                 setDisplay(true);
             } catch(e) {
