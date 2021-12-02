@@ -52,8 +52,9 @@ export default function ContactForm() {
                     flex-direction: column;
                     align-items: center;
                     justify-content: center;
-                    height:55.6vh;
+                    height:56vh;
                     z-index:5;
+                    background-color: #fff;
                 }    
 
                 h3 {

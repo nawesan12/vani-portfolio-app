@@ -12,7 +12,7 @@ export default function ContactHero() {
                         <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                         <rect x="3" y="5" width="18" height="14" rx="2" />
                         <polyline points="3 7 12 13 21 7" />
-                        </svg>Email: <a href="mailto:vaninagonzalez.arq@gmail.com Subject=Aquí%20el%20asunto%20del%20mail" target="blank">vaninagonzalez.arq@gmail.com</a>
+                        </svg>Email: <a href="mailto:vaninagonzalez.arq@gmail.com Subject=Aquí%20el%20asunto%20del%20mail" target="blank">vaninagonzalez.arq@hotmail.com</a>
                     </li>
                     <li>
                         <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-phone" width="36" height="36" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#000000" fill="none" strokeLinecap="round" strokeLinejoin="round">
