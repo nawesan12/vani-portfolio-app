@@ -5,8 +5,6 @@ import ProjectDetails from './ProjectDetails'
 
 export default function Project(props){
     
-    const url = props.image;
-
     const [openProject, setOpenProject] = useState(false);
     const [scrollCoords, setScrollCoords] = useState(0);
 
@@ -26,7 +24,7 @@ export default function Project(props){
                 openProject == false ?
                 <article className="project_article" onClick={() => abrirDetalles()}>
                     <div className="image_cont">
-                        <Image src={url} width={400} height={260} alt={props.title}/>
+                        <Image src={props.thumbnail} width={400} height={260} alt={props.title}/>
                     </div>
                     <div>
                         <div className="bubble green"/>
@@ -36,11 +34,14 @@ export default function Project(props){
                     <span>{props.ubicacion} • {props.fecha}</span>
                 </article> : 
                 <ProjectDetails 
+                    key={props.id}
                     title={props.title}
                     description={props.description}
                     ubicacion={props.ubicacion}
                     fecha={props.fecha}
-                    image={props.image}
+                    thumbnail={props.thumbnail}
+                    gallery={props.gallery}
+                    detalles={props.detalles}
                     volver={() => cerrarDetalles()}
                 />
             }

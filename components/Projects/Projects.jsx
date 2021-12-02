@@ -16,7 +16,7 @@ export default function Projects() {
             const projects = []
     
             project.forEach((doc) => {
-                const { id, title, description, fecha, ubicacion, image} = doc.data()
+                const { id, title, description, fecha, ubicacion, thumbnail, gallery, detalles} = doc.data()
     
                 projects.push({
                     id: doc.id,
@@ -24,10 +24,13 @@ export default function Projects() {
                     description,
                     fecha,
                     ubicacion,
-                    image
+                    thumbnail,
+                    gallery,
+                    detalles
                 })
             })
             setProjects(projects)
+            console.log(projects)
             setLoading(false)
         }
         getProjects()
@@ -54,7 +57,9 @@ export default function Projects() {
                         description={project.description}
                         fecha={project.fecha}
                         ubicacion={project.ubicacion}
-                        image={project.image}
+                        thumbnail={project.thumbnail}
+                        gallery={project.gallery}
+                        detalles={project.detalles}
                     />
                 ))}
             </section>
