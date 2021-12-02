@@ -6,7 +6,6 @@ import ProjectDetails from './ProjectDetails'
 export default function Project(props){
     
     const url = props.image;
-    console.log(url)
 
     const [openProject, setOpenProject] = useState(false);
     const [scrollCoords, setScrollCoords] = useState(0);
@@ -27,7 +26,7 @@ export default function Project(props){
                 openProject == false ?
                 <article className="project_article" onClick={() => abrirDetalles()}>
                     <div className="image_cont">
-                        <Image src={url.toString()} width={400} height={260} alt={props.title}/>
+                        <Image src={url} width={400} height={260} alt={props.title}/>
                     </div>
                     <div>
                         <div className="bubble green"/>

@@ -60,6 +60,8 @@ export default function ContactHero() {
                     align-items:center;
                     text-align: justify;
                     font-weight:500;
+                    position:relative;
+                    z-index:3;
                 }
 
                 svg {

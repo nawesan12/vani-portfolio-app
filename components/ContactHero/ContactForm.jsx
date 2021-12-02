@@ -53,6 +53,7 @@ export default function ContactForm() {
                     align-items: center;
                     justify-content: center;
                     height:55.6vh;
+                    z-index:5;
                 }    
 
                 h3 {

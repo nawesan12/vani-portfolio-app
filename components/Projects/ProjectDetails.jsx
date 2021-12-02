@@ -2,8 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 
 export default function ProjectDetails(props) {
-
-    const gallery = [];
+    
+    const gallery = []
     const details = [];
 
     return(
