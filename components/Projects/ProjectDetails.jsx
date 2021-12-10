@@ -44,12 +44,6 @@ export default function ProjectDetails(props) {
                     </li>
                 ))}
             </article>
-            {/*
-            {props.image}
-            {props.title}
-            {props.description}
-            {props.ubicacion}
-            {props.fecha}*/}
         </section>
 
         <style jsx>{`
