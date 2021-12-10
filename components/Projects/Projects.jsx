@@ -36,6 +36,8 @@ export default function Projects() {
         getProjects()
     }, [])
 
+    console.log("Holuu, soy la primer linea de codigo escrita en tu nueva laptop uwu que que se siente?? pues... RIQUI TIQUI TABI BIIIITCH. Espero que me encuentres, y que esto no rompa la app AJAJJAJAJ. Cambio y fuera 🦔")
+
     return (
         <>
             <h1>Proyectos</h1>
