@@ -87,10 +87,12 @@ export default function Project(props){
 
                 
 
-                @media screen and (max-width: 1280px) {
+                @media screen and (max-width: 1366px) {
                     .project_article {
                         display: openProject == false ? none : block;
                         width:30rem;
+                        height:30rem;
+                        margin:auto;
                     }
                 }
             `}</style>
