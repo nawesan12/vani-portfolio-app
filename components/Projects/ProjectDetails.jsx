@@ -52,10 +52,11 @@ export default function ProjectDetails(props) {
                 z-index:15;
                 top:0;
                 left:0;
-                width:100%;
+                width:100vw;
                 height:100vh;
                 background:#fff;
                 overflow:scroll;
+                overflow-x:hidden;
             }
 
             .section_header {
