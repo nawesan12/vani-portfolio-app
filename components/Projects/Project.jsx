@@ -57,13 +57,6 @@ export default function Project(props){
                     height:27rem;                    
                 }
 
-                @media screen and (max-width: 768px) {
-                    .project_article {
-                        display: openProject == false ? none : block;
-                        width:30rem;
-                    }
-                }
-
                 h4 {
                     font-size:1.2rem;
                 }
@@ -90,6 +83,15 @@ export default function Project(props){
 
                 .red {
                     background:red;
+                }
+
+                
+
+                @media screen and (max-width: 1280px) {
+                    .project_article {
+                        display: openProject == false ? none : block;
+                        width:30rem;
+                    }
                 }
             `}</style>
         </>
