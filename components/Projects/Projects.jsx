@@ -39,8 +39,8 @@ export default function Projects() {
     console.log("Holuu, soy la primer linea de codigo escrita en tu nueva laptop uwu que que se siente?? pues... RIQUI TIQUI TABI BIIIITCH. Espero que me encuentres, y que esto no rompa la app AJAJJAJAJ. Cambio y fuera 🦔")
 
     return (
-        <>
-            <h1>Proyectos</h1>
+        <section className="projects">
+        <h1>Proyectos</h1>
             {loading === true ? 
                 <section className="loader_section">  
                 <Loader
@@ -51,7 +51,7 @@ export default function Projects() {
                     timeout={4000}
                 />
             </section> :  
-            <section>
+            <section className="project_container">
                 {projects.map((project) => (
                     <Project 
                         key={project.id}
@@ -82,8 +82,27 @@ export default function Projects() {
                   justify-content: center;
                   align-items: center;
               }
+
+              @media screen and (min-width:1360px) {
+                    .projects {
+                        display:flex;
+                        width:60vw;
+                        margin:0 auto;
+                        flex-wrap:wrap;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+
+                    .project_container {
+                        display:flex;
+                        margin:0 auto;
+                        flex-wrap:wrap;
+                        justify-content: center
+                    }
+
+                }
             `}
             </style>
-        </>
+        </section>
     );
 }

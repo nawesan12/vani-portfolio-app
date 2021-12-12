@@ -40,3 +40,20 @@
     font-size: 1.8rem;
     padding:0 1rem;
 }
+
+@media screen and (min-width:1360px) {
+    .app_header {
+        margin-top: 8vh;
+        margin-bottom: 5vh;
+    }
+
+    .link_section {
+        width:50%;
+        margin-bottom: 2rem;
+        border:2px dashed transparent;
+
+        &:hover {
+            border:2px dashed black;
+        }
+    }
+}

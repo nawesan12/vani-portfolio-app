@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function PresentationHero(){
     return(
-        <>
+        <section className="presentation">
             <div className="profile">
                 <h1>Hola, soy<br/> Vanina Gonzalez</h1>
                 <div className="profile_photo" style={{width:110, height:110, borderRadius: '50%', overflow: 'hidden', position:'relative', borderColor:'black', borderWidth:'3px 3px 5px 5px', borderStyle:'dashed dashed groove groove'}}>
@@ -118,7 +118,15 @@ export default function PresentationHero(){
                 svg {
                     margin-right:.5rem;
                 }
+
+                @media screen and (min-width:1360px) {
+                    .presentation {
+                        display:block;
+                        width:50vw;
+                        margin:0 auto;
+                    }
+                }
             `}</style>
-        </>
+        </section>
     );
 }

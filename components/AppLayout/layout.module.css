@@ -57,4 +57,13 @@
   margin-bottom: 1rem;
   color: #fff;
 }
+
+@media screen and (min-width: 1360px) {
+  .section_header {
+    padding: .5rem 2rem;
+    font-size: 1.5rem;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
 /*# sourceMappingURL=layout.module.css.map */

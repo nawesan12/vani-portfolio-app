@@ -3,7 +3,7 @@ import ContactForm from './ContactForm';
 
 export default function ContactHero() {
     return(
-        <>
+        <section className="contact">
             <h1>Contacto</h1>
             <section className="contact_hero">
                 <ul>
@@ -71,7 +71,15 @@ export default function ContactHero() {
                 a {
                     margin-left:.5rem
                 }
+
+                @media screen and (min-width:1360px) {
+                    .contact {
+                        display:block;
+                        width:60vw;
+                        margin:0 auto;
+                    }
+                }
             `}</style>
-        </>
+        </section>
     )
 }

@@ -49,7 +49,7 @@ export default function Project(props){
             
             <style jsx>{`
                 .project_article {
-                    display: openProject == false ? none : block;
+                    display: inline-block;
                     padding:1rem;
                     margin:2rem 1.5rem;
                     border-radius: .5rem;
@@ -72,7 +72,7 @@ export default function Project(props){
                     height:1.5rem;
                     border-radius:50%;
                     float:right;
-                    border: 1px dashed #000;
+                    border: 1px double #000;
                     position:relative;
                     bottom:.8rem;
                 }
@@ -87,13 +87,13 @@ export default function Project(props){
 
                 
 
-                /*@media screen and (max-width: 1366px) {
+                @media screen and (min-width: 1360px) {
                     .project_article {
-                        display: openProject == false ? none : block;
-                        width:30rem;
-                        height:30rem;
-                        margin:auto;
-                    }*/
+                        display: inline-block;
+                        width:27rem;
+                        height:29rem;
+                        
+                    }
                 }
             `}</style>
         </>
