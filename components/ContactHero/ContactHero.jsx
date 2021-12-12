@@ -75,7 +75,7 @@ export default function ContactHero() {
                 @media screen and (min-width:1360px) {
                     .contact {
                         display:block;
-                        width:60vw;
+                        width:50vw;
                         margin:0 auto;
                     }
                 }
