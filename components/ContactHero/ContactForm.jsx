@@ -1,12 +1,14 @@
 import { useState } from 'react';
-import db from '../../database/firebase';
+import { db }  from '../../database/firebase';
 import { addDoc, collection } from 'firebase/firestore';
 
 import ThanksForComment from './ThanksForComment';
+import WrongInput from './WrongInput';
 
 export default function ContactForm() {
 
     const [display, setDisplay] = useState(false);
+    const [displayError, setDisplayError] = useState(false);
 
     const [datos, setDatos] = useState({
         name: '',
@@ -21,7 +23,7 @@ export default function ContactForm() {
 
     const createNewComment = async () => {
         if (datos.name == "" || datos.email == "" || datos.comment == "") {
-            alert("Todos los campos son obligatorios");
+            setDisplayError(true)
         } else {
             try {
                 const comment = await addDoc(collection(db, 'feedback'), datos);
@@ -38,6 +40,7 @@ export default function ContactForm() {
     return (
         <>
             <ThanksForComment display={display === false ? "none" : "flex"}/>
+            <WrongInput display={displayError == false ? "none" : "flex"} action={() => setDisplayError(false)} />
             <section className="contact_form">
                 <h3>Que te parece mi trabajo?</h3>
                 <input onChange={(value) => handleChangeText('name', value)} type="text" placeholder="Nombre completo" required/>

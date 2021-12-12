@@ -126,6 +126,12 @@ export default function PresentationHero(){
                         margin:0 auto;
                     }
                 }
+
+                @media screen and (min-width:900px) {
+                    .profile {
+                        margin-top:1rem;
+                    }
+                }
             `}</style>
         </section>
     );

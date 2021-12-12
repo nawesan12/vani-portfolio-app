@@ -101,6 +101,24 @@ export default function Projects() {
                     }
 
                 }
+
+                @media screen and (min-width:520px) and (max-width:1360px) {
+                    .projects {
+                        display:flex;
+                        width:85vw;
+                        margin:0 auto;
+                        flex-wrap:wrap;
+                        flex-direction: column;
+                        align-items: center;
+                    }
+
+                    .project_container {
+                        display:flex;
+                        margin:0 auto;
+                        flex-wrap:wrap;
+                        justify-content: center
+                    }
+                }
             `}
             </style>
         </section>

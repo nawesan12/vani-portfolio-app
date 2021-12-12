@@ -79,6 +79,13 @@ export default function ContactHero() {
                         margin:0 auto;
                     }
                 }
+
+                @media screen and (min-width:900px){
+                    .contact {
+                        width:75vw;
+                        margin:0 auto;
+                    }
+                }
             `}</style>
         </section>
     )

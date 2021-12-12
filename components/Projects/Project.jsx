@@ -92,7 +92,13 @@ export default function Project(props){
                         display: inline-block;
                         width:27rem;
                         height:29rem;
-                        
+                    }
+                }
+
+                @media screen and (min-width:520px) {
+                    .project_article {
+                        height:29rem;
+                        width:27rem;
                     }
                 }
             `}</style>
