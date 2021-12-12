@@ -51,14 +51,13 @@ export default function ContactForm() {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    justify-content: center;
-                    height:56vh;
-                    z-index:5;
+                    margin-bottom:1.2rem;
                     background-color: #fff;
                 }    
 
                 h3 {
                     font-size: 1.5rem;
+                    margin-top: 2.5rem;
                 }
 
                 input, textarea {
