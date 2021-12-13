@@ -1,6 +1,4 @@
-import React from 'react'
-
-function WrongInput(props) {
+export default function WrongInput(props) {
     return (
         <>
         <span>
@@ -37,5 +35,3 @@ function WrongInput(props) {
         </>
     )
 }
-
-export default WrongInput;

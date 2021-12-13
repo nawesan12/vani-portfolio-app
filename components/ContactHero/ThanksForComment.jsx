@@ -1,6 +1,4 @@
-import React from 'react'
-
-function ThanksForComment(props) {
+export default function ThanksForComment(props) {
     return (
         <>
         <span>
@@ -37,5 +35,3 @@ function ThanksForComment(props) {
         </>
     )
 }
-
-export default ThanksForComment;

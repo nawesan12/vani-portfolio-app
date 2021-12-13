@@ -34,9 +34,7 @@ export default function ContactForm() {
             }
         }
     }
-
-    // const moment = new Date(); console.log(moment.toLocaleString('es-AR', { timeZone: 'UTC' }));
-
+    
     return (
         <>
             <ThanksForComment display={display === false ? "none" : "flex"}/>
