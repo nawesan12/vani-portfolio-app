@@ -23,6 +23,7 @@ export default function Projects() {
                             location={project.location}
                             thumbnail={project.thumbnail}
                             gallery={project.gallery}
+                            download={project.download}
                             details={project.details}
                         />
                     ))

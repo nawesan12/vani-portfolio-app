@@ -41,6 +41,7 @@ export default function Project(props){
                     date={props.date}
                     thumbnail={props.thumbnail}
                     gallery={props.gallery}
+                    download={props.download}
                     details={props.details}
                     volver={() => cerrarDetalles()}
                 />

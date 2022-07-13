@@ -37,16 +37,16 @@ export default function ProjectDetails(props) {
                         </li>
                     ))}
                 </article>
-                <article className="gallery_article">
+                { props.gallery ? (<article className="gallery_article">
                     <h2>Galería</h2>
                     <div className="gallery">
-                        {props.gallery.map((image, index) => (
+                         {props.gallery.map((image, index) => (
                             <div key={index} className="image-container">
                                 <Image src={image} layout="fill" objectFit="cover" key={index} alt={props.title}/>
                             </div>
                         ))}
                     </div>
-                </article>
+                </article> ) : null}
             </div>
         </section>
 

@@ -6,6 +6,7 @@
         "location": "Mar del Plata",
         "date": "Junio 2022",
         "thumbnail": "/projects/panel-vision/thumbnail.png",
+        "download": null,
         "gallery": [
             "/projects/panel-vision/image1.png",
             "/projects/panel-vision/image2.png",
@@ -15,6 +16,19 @@
         "details": [
             "Realizado en Illustrator",
             "Imagenes hechas en Sketchup"
+        ]
+    },
+    {
+        "id":2,
+        "title": "Proyecto Final Tec 3",
+        "description": "Proyecto final del titulo de MMO, donde se realizo un edificio de maxima incumbencia, con garaje en subsuelo y azotea. Mas abajo se presenta la totalidad de sus planos.",
+        "location": "Mar del Plata",
+        "date": "Diciembre 2020",
+        "thumbnail": "/projects/proyecto-final-tec3/thumbnail.png",
+        "download": "/projects/proyecto-final-tec3/Proyecto.zip",
+        "gallery": null,
+        "details": [
+            "Realizado en AutoCAD"
         ]
     }
 ]
