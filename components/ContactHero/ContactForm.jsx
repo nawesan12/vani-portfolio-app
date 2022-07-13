@@ -1,6 +1,4 @@
 import { useState } from 'react';
-import { db }  from '../../database/firebase';
-import { addDoc, collection } from 'firebase/firestore';
 
 import ThanksForComment from './ThanksForComment';
 import WrongInput from './WrongInput';
@@ -19,7 +17,7 @@ export default function ContactForm() {
 
     const handleChangeText = (name, event) => {
         setDatos({ ...datos, [name]: event.target.value });
-    }
+    }/* 
 
     const createNewComment = async () => {
         if (datos.name == "" || datos.email == "" || datos.comment == "") {
@@ -33,7 +31,7 @@ export default function ContactForm() {
                 console.error("Error uploading comment: ", e);
             }
         }
-    }
+    } */
     
     return (
         <>
@@ -44,7 +42,7 @@ export default function ContactForm() {
                 <input onChange={(value) => handleChangeText('name', value)} type="text" placeholder="Nombre completo" required/>
                 <input onChange={(value) => handleChangeText('email', value)} type="email" placeholder="Email" required/>
                 <textarea onChange={(value) => handleChangeText('comment', value)} placeholder="Escribeme algo..." className="textarea" required/>
-                <button onClick={() => createNewComment()}>Enviar</button>
+                <button>Enviar</button>
             </section>
 
             <style jsx>{`

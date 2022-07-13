@@ -31,17 +31,17 @@ export default function Project(props){
                         <h4>{props.title}</h4>
                         <p>{props.description.split("", 120)}...</p>
                     </div>
-                    <span>{props.ubicacion} • {props.fecha}</span>
+                    <span>{props.location} • {props.date}</span>
                 </article> : 
                 <ProjectDetails 
                     key={props.id}
                     title={props.title}
                     description={props.description}
-                    ubicacion={props.ubicacion}
-                    fecha={props.fecha}
+                    location={props.location}
+                    date={props.date}
                     thumbnail={props.thumbnail}
                     gallery={props.gallery}
-                    detalles={props.detalles}
+                    details={props.details}
                     volver={() => cerrarDetalles()}
                 />
             }

@@ -12,8 +12,8 @@ export default function PresentationHero(){
             <section className="presentation">
                 <h2>Sobre mi</h2>
                 <p className="bio">
-                    Soy una maestra mayor de obra de 19 años, con experiencia en el diseño de viviendas, departamentos y comercios, modelado 3D de obras 
-                    y representaciones reales de ellas. Termine mi carrera como maestra mayor de obra a los 19 años, y ahora estoy 
+                    Soy una maestra mayor de obra de 20 años, con experiencia en el diseño de viviendas, departamentos y comercios, modelado 3D de obras 
+                    y representaciones reales de ellas. Termine mi carrera como maestra mayor de obra a los 19 años (2020), y ahora estoy 
                     estudiando arquitectura en la UNMDP. Cuento con una amplia variedad de proyectos ya hechos por mi cuenta.
                     Siempre buscare la idoneidad en mis trabajos, fijandome hasta en el ultimo detalle para
                     poder asegurar una buena experiencia y comodidad para mis clientes.

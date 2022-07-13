@@ -5,6 +5,17 @@
     margin-bottom: 5vh;
 }
 
+.app_header_container {
+    display:block;
+    text-align: center;
+    margin:auto;
+    width:10rem;
+    height:10rem;
+    border-radius:1rem;
+    overflow:hidden;
+    position: relative;
+}
+
 .title {
     margin-bottom: .4rem;
 }
