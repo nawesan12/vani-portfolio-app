@@ -47,6 +47,10 @@ export default function ProjectDetails(props) {
                         ))}
                     </div>
                 </article> ) : null}
+
+                { props.download ? (<article className="download_article">
+                        <a href={props.download} download><h2>Descargar Archivos</h2></a>
+                    </article> ) : null}
             </div>
         </section>
 
