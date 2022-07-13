@@ -1,8 +1,8 @@
 [
     {
         "id":1,
-        "title": "Panel Vision",
-        "description": "",
+        "title": "Panel Visual",
+        "description": "Trabajo realizado para la materia de Visual (Primer Cuatrimestre) basado en un multiespacio infantil, donde primero se trabajo con metodo Monge, y luego en el sketchup de manera monocromatica. Se trabajo en los planos llenos, vacios y vidriados.",
         "location": "Mar del Plata",
         "date": "Junio 2022",
         "thumbnail": "/projects/panel-vision/thumbnail.png",
@@ -13,23 +13,8 @@
             "/projects/panel-vision/image4.png"
         ],
         "details": [
-            "detalle 1",
-            "detalle 2"
+            "Realizado en Illustrator",
+            "Imagenes hechas en Sketchup"
         ]
-    },   
-    {
-        "id":2,
-        "title": "Proyecto Final Tec 3",
-        "description": "",
-        "location": "Mar del Plata",
-        "date": "Diciembre 2020",
-        "thumbnail": "/projects/panel-vision/thumbnail.png",
-        "gallery": [
-            "/projects/panel-vision/thumbnail.png"
-        ],
-        "details": [
-            "detalle 1",
-            "detalle 2"
-        ]
-    }   
+    }
 ]
